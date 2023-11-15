@@ -1,2 +1,4 @@
-# ShellScript
-리눅스는 내친구
+# Shell
+
+~~조개 껍떼기~~
+
