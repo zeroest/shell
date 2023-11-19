@@ -19,3 +19,26 @@ lxZZ
 ```
 </details>
 
+
+<details>
+<summary>EDN reformat</summary>
+
+<a href="https://www.vimgolf.com/challenges/9v006519507c00000000025a">9v006519507c00000000025a</a>
+
+```
+:%s/\v(:\S+)(.*)/\=printf('%-15s%s',submatch(1),submatch(2))<CR>ZZ
+
+\S - non-whitespace character; opposite of \s
+:help printf
+```
+```
+:set et<CR>
+:set ts=17<CR>
+qqf s<Tab><Esc><CR>q
+6@qZZ
+
+:set et - tab을 space로 확장설정 (== :set expandtab)
+:set ts - tab 인식 칸 수 설정 (== :set tabstop=17)
+```
+</details>
+
