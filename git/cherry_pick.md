@@ -58,6 +58,8 @@ For example, if your commit tree is like below:
 then `git cherry-pick E` will produce the issue you faced.  
 `git cherry-pick E -m 1` means using `D-E`, while `git cherry-pick E -m 2` means using `B-C-E`.  
 
+[[refer] Explain cherry-pick, with merge commit](https://stackoverflow.com/questions/9229301/git-cherry-pick-says-38c74d-is-a-merge-but-no-m-option-was-given/53693507#53693507)
+
 ```bash
 git log
 # * 3948362 - (8 minutes ago) f - zeroest (main)
