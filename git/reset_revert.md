@@ -1,5 +1,5 @@
 
-# Reset
+# [Reset](https://git-scm.com/docs/git-reset)
 
 `git reset --[soft | mixed | hard] ${commit_hash}`  
 `git reset HEAD^`  
@@ -39,7 +39,7 @@ git reset 438e149
 * 3731280 - a (2 minutes ago)<zeroest>
 ```
 
-# Revert
+# [Revert](https://git-scm.com/docs/git-revert)
 
 특정 commit을 undo하는 새로운 commit 을 forward-moving 해서 만들어 낸다
 
