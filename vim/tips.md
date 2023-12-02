@@ -1,5 +1,5 @@
 
-## [text-objects](https://vimdoc.sourceforge.net/htmldoc/motion.html#text-objects)
+# [text-objects](https://vimdoc.sourceforge.net/htmldoc/motion.html#text-objects)
 
 [Vim Text Objects: The Definitive Guide](https://blog.carbonfive.com/vim-text-objects-the-definitive-guide/)
 
@@ -24,3 +24,8 @@
 - b - block ()
 - B - block {}
 - ohter - {}()<>"'
+
+# other
+
+- ZZ == :wq
+- :cq == cancel and quit
