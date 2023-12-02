@@ -38,7 +38,7 @@ ll
 # -rw-r--r--@ 1 zero  staff     0B 12  3 00:11 c
 ```
 
-## Merge commit cherry-pick
+## Cherry-pick merge commit
 
 `git cherry-pick -m 1 ${commit_hash}`
 
@@ -68,6 +68,10 @@ git log
 # * | c5dd769 - (11 minutes ago) d - zeroest
 # |/
 # * d71490d - (12 minutes ago) a - zeroest (HEAD -> two)
+
+git cherry-pick 292def7
+# error: commit 292def774d6949e9d517bdd3e620af3629b55e42 is a merge but no -m option was given.
+# fatal: cherry-pick failed
 
 <<<
 git cherry-pick -m 1 292def7
